@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185c0691f8ed60c49ad96c06daa589ed, type: 3}
+  m_Name: PoolingTable
+  m_EditorClassIdentifier: 
+  Serializers:
+  - key: Bullet
+    ItemPooling:
+      listPooling:
+      - {fileID: 7944667581293819377, guid: 3535f0479bc933b42b00cba9ccf5d26a, type: 3}
+  - key: Block
+    ItemPooling:
+      listPooling:
+      - {fileID: 3759138913779211836, guid: dd6b92bbc3231cf4a85e71d0bf96aa7b, type: 3}
+  - key: Wall
+    ItemPooling:
+      listPooling:
+      - {fileID: 6479986845781120944, guid: 6d2824a421d3c904bb3267054f58eb12, type: 3}
